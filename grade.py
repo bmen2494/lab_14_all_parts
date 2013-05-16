@@ -61,6 +61,4 @@ elif grade  >=0 and grade <=59:
  	print ('Number Grade: ' + str(grade))
  	print ('Letter Grade: F') 
 else:
-	print('Could not translate (grade) into a letter grade ')
- 
-
+	print('Could not translate Number Grade: ' + str(grade) + 'into a letter grade ')
